@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>POKÉMON</title>
+
+    <link rel="shortcut icon" href="img/pikachu.png" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/card.css" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta name="Pokeinformación" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="header">
+                <a href="index.html">
+                    <img alt="Index" src=img/logo.png>
+                </a>
+            </div>
+        </div>
+        <div class="barra">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html"><b>Inicio</b></a></li>
+                    <li><a href="gen.html"><b>Generación</b></a></li>
+                    <li><a href="tipo.html"><b>Tipos</b></a></li>
+                    <li><a href="colores.html"><b>Colores</b></a></li>
+                    <li><a href="random.html"><b>Aleatorio</b></a></li>
+    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <div class = "Buscar Pokemon"> 
+        <form>
+            <div class="centrar">
+                <div class="autocomplete">
+                    <input type="text" class="input" id="busqueda" placeholder="Introduce un Pókemon...  ">
+                    <a href="#pokedex" id="button">
+                        <img src="img/buscar.png" alt="Buscar" class="button-search">
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+     
+
+    <div class="img-pokedex">
+        <img src="img/pokedex.png" alt="pokedex" style="text-align: center;">
+    </div>
+    <div id="poke_index" class="poke-container"></div>
+
+    <footer>
+        <img src="img/up_flecha.png" id="scrollToTopBtn" class="img-scroll" alt="top">
+        <img src="img/mas.png" id="morePKMButton" class="img-scroll" alt="+">
+        <div class="centrar"><img src= img/nombres.png alt="Edu & Sergio" class="copy"></div>
+    </footer>
+
+    <script src ="js/index.js"></script>
+</body>
+</html>

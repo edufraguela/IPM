@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Colores</title>
+
+        <link rel="shortcut icon" href="img/pikachu.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/colores.css" />
+        <link rel="stylesheet" href="css/card.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+
+        <meta charset="UTF-8">
+        <meta name="BÚSQUEDA POR COLORES" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <a href="index.html">
+                    <img alt="Index" src=img/logo.png>
+                </a>
+            </div>
+        </header>
+
+            
+            <div class="centrar-busqueda">
+                <a href="index.html"><img src="img/flecha.png" class="back" alt="Atras"></a>
+            </div>
+
+            <div class = "Buscar Pokemon"> 
+                <form>
+                    <div class="centrar">
+                        <div class="autocomplete">
+                            <input type="text" class="input" name="txt" id="busqueda" placeholder="Introduce un Pókemon...  ">
+                            <a href="#pokedex" id = "button">
+                                <img src="img/buscar.png" alt="Buscar" class="button-search">
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class = "ordenar-color">
+                <div class="colores">
+                    <div class="cinco">
+                        <div class="foo yellow" id = "yellow">AMARILLO<a href="#pokedex"></a></div>
+                        <div class="foo blue" id = "blue">AZUL<a href="#pokedex"></a></div>
+                        <div class="foo white" id = "white">BLANCO<a href="#pokedex"></a></div>
+                        <div class="foo gray" id = "gray" style="color: white;">GRIS<a href="#pokedex"></a></div>
+                        <div class="foo brown" id = "brown" style="color: white;">MARRÓN<a href="#pokedex"></a></div>
+                    </div>
+                    <div class="diez">
+                        <div class="foo purple" id = "purple" style="color: white;">VIOLETA<a href="#pokedex"></a></div>
+                        <div class="foo black" id = "black" style="color: white;">NEGRO<a href="#pokedex"></a></div>
+                        <div class="foo red" id = "red" style="color: white;">ROJO<a href="#pokedex"></a></div>
+                        <div class="foo pink" id = "pink">ROSA<a href="#pokedex"></a></div>
+                        <div class="foo green" id = "green">VERDE<a href="#pokedex"></a></div>
+                    </div>     
+                </div>
+            </div>
+            
+            <div>
+                <div class="img-pokedex">
+                    <img src="img/pokedex.png" alt="Pokedex" style="text-align: center;">
+                </div>
+                <div id="poke_color" class="poke-container"></div>
+                <a id="pokedex"></a>
+            </div>
+                
+            <footer>
+                <img src="img/up_flecha.png" id="scrollToTopBtn" class="img-scroll" alt="top">
+                <div class="centrar"><img src= img/nombres.png class="copy" alt="Edu & Sergio"></div>
+            </footer>
+         <script src ="js/colores.js"></script>
+    </body>
+</html>

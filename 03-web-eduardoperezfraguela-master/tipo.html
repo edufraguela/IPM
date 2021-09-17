@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Tipo</title>
+    
+        <link rel="shortcut icon" href="img/pikachu.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="css/card.css" type="text/css">
+    
+        <meta charset="UTF-8">
+        <meta name="BÚSQUEDA POR TIPOS" content="width=device-width, initial-scale=1">
+    
+    </head>
+
+    <body>
+
+            <header>
+                <div class="logo">
+                    <div class="header">
+                        <a href="index.html">
+                            <img alt="Index" src=img/logo.png>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+                <div class="centrar-busqueda">
+                    <a href="index.html"><img src="img/flecha.png" class="back" alt="Botón"></a>
+                </div>
+
+                <div class = "Buscar Pokemon"> 
+                    <form>
+                        <div class="centrar">
+                            <div class="autocomplete">
+                                <input type="text" class="input" name="txt" id="busqueda" placeholder="Introduce un Pókemon...  ">
+                                <a href="#pokedex" id = "button">
+                                    <img src="img/buscar.png" alt="Buscar" class="button-search">
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <section class = "ordenar-tipo">
+                    <h1 class="h3-gen">Filtrar por Tipo:</h1>
+                    <div class="centrar-busqueda">
+                        <select name="Type" id="options">
+                            <option selected value="0"> Elige una opción </option>
+                                <optgroup label="Tipo:"> 
+                                <option value="1" id = "normal">Normal</option>
+                                <option value="2" id = "fighting">Fighting</option> 
+                                <option value="3" id = "flying">Flying</option> 
+                                <option value="4" id = "poison">Poison</option>
+                                <option value="5" id = "ground">Ground</option>
+                                <option value="6" id = "rock">Rock</option>
+                                <option value="7" id = "bug">Bug</option>
+                                <option value="8" id = "ghost">Ghost</option>
+                                <option value="9" id = "steel">Steel</option>
+                                <option value="10" id = "fire">Fire</option>
+                                <option value="11" id = "water">Water</option> 
+                                <option value="12" id = "grass">Grass</option> 
+                                <option value="13" id = "electric">Electric</option>
+                                <option value="14" id = "psychic">Psychic</option>
+                                <option value="15" id = "ice">Ice</option>
+                                <option value="16" id = "dragon">Dragon</option>
+                                <option value="17" id = "dark">Dark</option>
+                                <option value="18" id = "fairy">Fairy</option>
+                            </optgroup> 
+                         </select>
+                    </div>
+                </section>
+
+                <div class="img-pokedex">
+                    <img src="img/pokedex.png" alt="pokedex" style="text-align: center;">
+                </div>
+                <div id="poke_type" class="poke-container"></div>
+                    
+                <footer>
+                    <img src="img/up_flecha.png" id="scrollToTopBtn" class="img-scroll" alt="top">
+                    <div class="centrar"><img src= img/nombres.png class="copy" alt="Edu & Sergio"></div>
+                </footer>
+
+        <script src = "js/tipo.js"></script>
+    </body>
+</html>    

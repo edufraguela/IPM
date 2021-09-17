@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Generación</title>
+    
+        <link rel="shortcut icon" href="img/pikachu.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/card.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        
+        <meta charset="UTF-8">
+        <meta name="BÚSQUEDA POR GENERACIONES" content="width=device-width, initial-scale=1">
+    
+    </head>    
+    
+  
+
+    <body>
+            <header>
+                <div class="header">
+                    <a href="index.html">
+                        <img alt="Index" src=img/logo.png>
+                    </a>
+                </div>
+            </header>
+
+                <div class="centrar-busqueda">
+                    <a href="index.html"><img src="img/flecha.png" class="back" alt="Botón"></a>
+                </div>
+
+                <div class = "Buscar Pokemon"> 
+                    <form>
+                        <div class="centrar">
+                            <div class="autocomplete">
+                                <input type="text" class="input" name="txt" id="busqueda" placeholder="Introduce un Pókemon...  ">
+                                <a href="#pokedex" id = "button">
+                                    <img src="img/buscar.png" alt="Buscar" class="button-search">
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            
+                <section class="section">
+                    <h1 class="h3-gen">Filtrar por Generación:</h1>
+                        <div class="regiones">
+                            <div class="img">
+                                <img src="img/kanto_1.jpeg" alt="kanto">
+                                <img src="img/kanto.png" alt="kanto">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button1" class="button">Kanto</a>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <img src="img/johto.png" alt="johto">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button2" class="button">Johto</a>
+                                </div>    
+                            </div>  
+                            
+                            <div class="img">
+                                <img src="img/hoenn.png" alt="hoenn">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button3" class="button">Hoenn</a>
+                                </div>
+                            </div>
+                                 
+                            <div class="img">
+                                <img src="img/sinnoh.jpeg" alt="sinnoh">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button4" class="button">Sinnoh</a>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <img src="img/teselia.png" alt="teselia">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button5" class="button">Teselia</a>
+                                </div>
+                            </div>
+ 
+                            <div class="img">
+                                <img src="img/kalos.jpeg" class="kalos" alt="kalos">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button6" class="button">Kalos</a>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <img src="img/alola.png" alt="alola">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button7" class="button">Alola</a>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <img src="img/galar.png" alt="galar">
+                                <div class="centrar">
+                                    <a href="#pokedex" id = "button8" class="button">Galar</a>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+            <div>
+                <div class="img-pokedex">
+                    <img src="img/pokedex.png" alt="pokedex" style="text-align: center;">
+                </div>
+                <div id="poke_gen" class="poke-container"></div>
+                <a id="pokedex"></a>
+            </div>
+                  
+            
+            <footer>
+                <img src="img/up_flecha.png" id="scrollToTopBtn" class="img-scroll" alt="top">
+                <div class="centrar"><img src= img/nombres.png class="copy" alt="Edu & Sergio"></div>
+            </footer>
+    <script src ="js/gen.js"></script>
+    </body>
+</html>    

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Random</title>
+    
+        <link rel="shortcut icon" href="img/pikachu.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="css/card.css" type="text/css">
+    
+        <meta charset="UTF-8">
+        <meta name="BÚSQUEDA POR GENERACIONES" content="width=device-width, initial-scale=1">
+    </head>    
+    
+
+    <body>
+        <div id="poke-container">
+
+            <header>
+                <a href="index.html">
+                    <img alt="Index" src=img/logo.png>
+                </a>
+            </header>
+
+                
+                <div class="centrar-busqueda">
+                    <a href="index.html"><img src="img/flecha.png" class="back" alt="Botón"></a>
+                </div>            
+        </div>
+
+        <div class = "Buscar Pokemon"> 
+            <form>
+                <div class="centrar">
+                    <div class="autocomplete">
+                        <input type="text" class="input" name="txt" id="busqueda" placeholder="Introduce un Pókemon...  ">
+                        <a href="#pokedex" id = "button">
+                            <img src="img/buscar.png" alt="Buscar" class="button-search">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <h1>Pokémon Aleatorio</h1>
+        <div id="poke_container" class="poke-container"></div>
+
+        <div class="centrar">
+            <a id = "re-roll"><img src="img/prueba.gif" height="100" width="100" alt="Botón"></a>
+            <div class="centrar">
+                <p> Recargar </p>
+            </div>
+        </div>
+        <footer>
+            <div class="centrar"><img src= img/nombres.png class="copy" alt="Edu & Sergio"></div>
+        </footer>
+        <script src="js/random.js"></script>
+    </body>
+</html>  
